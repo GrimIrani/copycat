@@ -1,5 +1,6 @@
 # copycat
-A General clipboard and copy/paste manager in cli/tui/gui.
+
+![Documentation Status](https://readthedocs.org/projects/copycatdoc/badge)
 # TODOs:
 - add icon in toolbar with menu
 - Sync copy
