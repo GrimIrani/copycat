@@ -11,6 +11,6 @@ int main(int argc, char *argv[]){
     QApplication app(argc, argv);
     QClipboard *clipboard = QGuiApplication::clipboard();
     QString originalText = clipboard->text();
-    clipboard->setText("test");
+    clipboard->setText(argv[1]);
     return app.exec();
 }

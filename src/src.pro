@@ -4,7 +4,7 @@
 
 QT += widgets
 TEMPLATE = app
-TARGET = test
+TARGET = copycat
 INCLUDEPATH += .
 
 # You can make your code fail to compile if you use deprecated APIs.
