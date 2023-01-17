@@ -1,5 +1,6 @@
 # Compile
 ```
+qmake
 make
 ```
 # Usage
