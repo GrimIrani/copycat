@@ -1,16 +1,22 @@
-#include <QApplication>
-#include <QWidget>
-#include <QLabel>
-#include <QGridLayout>
-#include <QPushButton>
+#include <iostream>
 #include <string>
-#include <QtWidgets>
-#include <QClipboard>    
+
+#include <QApplication>
+#include <QClipboard>
 
 int main(int argc, char *argv[]){
-    QApplication app(argc, argv);
-    QClipboard *clipboard = QGuiApplication::clipboard();
-    QString originalText = clipboard->text();
+  QApplication app(argc, argv);
+  QClipboard *clipboard = QGuiApplication::clipboard();
+  QString originalText = clipboard->text();
+
+  //Without arg
+  if(argv[1] == NULL){
+    clipboard->setText("test");
+  }
+
+  //With arg
+  else{
     clipboard->setText(argv[1]);
-    return app.exec();
+  }
+  return app.exec();
 }
