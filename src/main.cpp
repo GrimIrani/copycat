@@ -11,7 +11,12 @@ int main(int argc, char *argv[]){
 
   //Without arg
   if(argv[1] == NULL){
-    clipboard->setText("test");
+    QString QLine;
+    std::string Line;
+    while (std::getline(std::cin, Line))
+      QLine += QString::fromStdString(Line)+"\n";
+    QLine.chop(1);
+    clipboard->setText(QLine);
   }
 
   //With arg
