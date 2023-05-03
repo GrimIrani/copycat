@@ -10,7 +10,7 @@
 - zsh plugin
 - DON'T MESS THE CODE!
 - Redo actions(keyboard and mousr) with counter and more
-- Screen shot
+- Screen shot & video capturing
 - Add tesseract for copy text from image with crop options
 - copy audio from vedio format files
 - more TODOs(yeah more TODOs are TODOs)
