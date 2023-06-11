@@ -13,4 +13,5 @@
 - Screen shot & video capturing
 - Add tesseract for copy text from image with crop options
 - copy audio from vedio format files
+- copy logs with PIDs
 - more TODOs(yeah more TODOs are TODOs)
