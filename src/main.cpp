@@ -4,6 +4,8 @@
 #include <QApplication>
 #include <QClipboard>
 #include <QSystemTrayIcon>
+#include <QMenu>
+#include <QAction>
 
 int main(int argc, char *argv[]){
   QApplication app(argc, argv);
@@ -16,6 +18,16 @@ int main(int argc, char *argv[]){
   trayIcon.setIcon(icon);
   trayIcon.setToolTip("copycat");
   trayIcon.show();
+  
+  // Set some option for tray menu
+  QMenu* trayMenu = new QMenu();
+  trayMenu->addAction("Clipboard 1");
+  trayMenu->addAction("Clipboard 1");
+  trayMenu->addSeparator();
+  trayMenu->addAction("menu");
+
+  // Set the tray menu
+  trayIcon.setContextMenu(trayMenu);
 
   QClipboard *clipboard = QGuiApplication::clipboard();
   QString originalText = clipboard->text();
