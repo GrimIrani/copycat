@@ -2,7 +2,7 @@
 
 ![Documentation Status](https://readthedocs.org/projects/copycatdoc/badge)
 # TODOs:
-- add icon in toolbar with menu
+- add icon in toolbar with menu(tray icon)
 - Sync copy
 - log everything
 - image copy support and displaycopycat
