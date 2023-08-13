@@ -6,4 +6,4 @@ TARGET = copycat
 INCLUDEPATH += .
 
 LIBS += -lappindicator
-SOURCES += main.cpp
+SOURCES += main.cpp traymenu.cpp clipboardhandler.cpp
