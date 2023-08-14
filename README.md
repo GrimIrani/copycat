@@ -1,6 +1,7 @@
-# copycat&catcopy
-
 ![Documentation Status](https://readthedocs.org/projects/copycatdoc/badge)
+# copycat manager
+Modern clipboard manager.
+
 # TODOs:
 - add icon in toolbar with menu(tray icon)
 - Sync copy
