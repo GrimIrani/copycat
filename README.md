@@ -1,6 +1,6 @@
 ![Documentation Status](https://readthedocs.org/projects/copycatdoc/badge)
 # copycat manager
-Modern clipboard manager.
+Copy the world, Paste the cat!
 
 # TODOs:
 - add icon in toolbar with menu(tray icon)
